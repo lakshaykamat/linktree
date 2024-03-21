@@ -14,6 +14,6 @@ const TechStack = () => {
 };
 
 const TechItem = ({ name }: { name: string }) => {
-  return <span className="bg-purple-100 px-3 py-2 rounded-lg">{name}</span>;
+  return <span className="bg-blue-600 px-3 py-2 rounded-lg">{name}</span>;
 };
 export default TechStack;
