@@ -9,8 +9,8 @@ import Education from "./components/Education";
 
 const HomePage = () => {
   return (
-    <>
-      <h2 className="py-3 text-2xl font-bold text-center bg-indigo-300 border-b-2 border-b-gray-400">
+    <div className="">
+      <h2 className="py-3 text-2xl font-bold text-center bg-rose-300 border-b-2 border-b-gray-400">
         {authorInfo.headline}
       </h2>
       <div className="flex flex-col gap-10 px-6 py-10 lg:flex-row">
@@ -20,14 +20,16 @@ const HomePage = () => {
             alt="shiku"
             width={288}
             height={288}
-            className="p-1 rounded-full outline outline-4 outline-indigo-300 w-72 h-72"
+            className="p-1 rounded-full outline outline-4 outline-rose-300 w-72 h-72"
           />
           <div className="flex flex-col w-full gap-3">
             <div className="">
               <h1 className="text-3xl font-bold sm:text-4xl">
                 {authorInfo.name}
               </h1>
-              <p className="mt-4 text-base text-gray-700">{authorInfo.bio}</p>
+              <p className="mt-4 text-xl font-semibold text-gray-700">
+                {authorInfo.bio}
+              </p>
               <p className="mt-4 text-base text-gray-700 flex gap-2">
                 <Location />
                 New Delhi, India
@@ -54,7 +56,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default HomePage;

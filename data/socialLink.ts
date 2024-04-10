@@ -1,4 +1,4 @@
-import { Blog, Github, Instagram, Linkedin, X, Email } from "@/app/Icons";
+import { Blog, Github, Instagram, Linkedin, X, Email, Link } from "@/app/Icons";
 const socialMedia = [
   {
     jsx: Email,
@@ -9,11 +9,19 @@ const socialMedia = [
     },
   },
   {
-    jsx: Instagram,
-    label: "Instagram",
+    jsx: Link,
+    label: "Portfolio",
+    username: "lakshaykamat.netlify.app",
+    url: function url(username: string) {
+      return `https://${username}`;
+    },
+  },
+  {
+    jsx: Linkedin,
+    label: "LinkedIn",
     username: "lakshaykamat",
     url: function url(username: string) {
-      return `https://www.instagram.com/${username}`;
+      return `https://www.linkedin.com/in/${username}`;
     },
   },
   {
@@ -25,19 +33,20 @@ const socialMedia = [
     },
   },
   {
+    jsx: Instagram,
+    label: "Instagram",
+    username: "lakshaykamat",
+    url: function url(username: string) {
+      return `https://www.instagram.com/${username}`;
+    },
+  },
+
+  {
     jsx: X,
     label: "Twitter",
     username: "lakshaykamat",
     url: function url(username: string) {
       return `https://twitter.com/${username}`;
-    },
-  },
-  {
-    jsx: Linkedin,
-    label: "LinkedIn",
-    username: "lakshaykamat",
-    url: function url(username: string) {
-      return `https://www.linkedin.com/in/${username}`;
     },
   },
   {
