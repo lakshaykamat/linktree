@@ -12,7 +12,7 @@ const ProjectCard = ({
   repoLink: string;
 }) => {
   return (
-    <div className="w-full px-6 rounded-lg bg-rose-100 00 py-7 drop-shadow outline outline-rose-200 outline-2">
+    <div className="w-full px-6 rounded-lg bg-indigo-100 00 py-7 drop-shadow outline outline-indigo-200 outline-2">
       <div className="flex flex-col gap-1">
         <h4 className="text-lg font-semibold">{title}</h4>
         <p className="text-sm text-gray-700">{description}</p>
@@ -20,7 +20,7 @@ const ProjectCard = ({
       <div className="flex gap-5 mt-3">
         {previewLink && (
           <Link target="_blank" href={previewLink}>
-            <button className="px-4 py-2 text-sm bg-rose-400 rounded-md drop-shadow">
+            <button className="px-4 py-2 text-sm bg-indigo-400 rounded-md drop-shadow">
               Preview
             </button>
           </Link>

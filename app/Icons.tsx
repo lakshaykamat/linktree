@@ -2,7 +2,7 @@ import React from "react";
 
 type Props = {};
 
-const ICON_COLOR = "#f43f5e";
+const ICON_COLOR = "#6366f1";
 const Location = (props: Props) => {
   return (
     <svg

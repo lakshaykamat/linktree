@@ -9,7 +9,7 @@ const SocialSection = () => {
           <Link
             key={socialLink.username}
             href={socialLink.url(socialLink.username)}
-            className="flex items-center gap-3 px-4 py-2 hover:underline hover:outline outline-rose-100 rounded-lg"
+            className="flex items-center gap-3 px-4 py-2 hover:underline hover:outline outline-indigo-100 rounded-lg"
           >
             <socialLink.jsx />
 

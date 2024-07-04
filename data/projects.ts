@@ -58,11 +58,60 @@ const oldProjects: Project[] = [
 
 const projects: Project[] = [
   {
+    title: "SyncTalk - Chat application and Post Sharing Platfrom",
+    description:
+      "Stay organized with our notes app. Simple, intuitive design for effortless note-taking and easy access to your important thoughts.",
+    repoLink: "https://github.com/lakshaykamat/synctalk",
+    previewLink: "https://synctalk.vercel.app/",
+  },
+  {
+    title: "Snap Note - Cloud notes application",
+    description:
+      "Stay organized with our notes app. Simple, intuitive design for effortless note-taking and easy access to your important thoughts.",
+    repoLink: "https://github.com/lakshaykamat/snap-note",
+    previewLink:
+      "https://gist.github.com/lakshaykamat/7a941f0c5ae755c149b8aa833ace5982",
+  },
+  {
+    title: "URL Shortener - Simplify long urls",
+    description:
+      "Users can convert long URLs into short, shareable links, with the option to use custom short URLs.",
+    repoLink: "https://github.com/lakshaykamat/url-shortner",
+    previewLink: "https://nice-url-shortner.vercel.app/",
+  },
+  {
+    title: "Personal Portfolio",
+    description:
+      "A comprehensive showcase of my projects, blogs, and professional journey, highlighting my skills, experiences, and accomplishments.",
+    repoLink: "https://github.com/lakshaykamat/portfolio",
+    previewLink: "https://lakshaykamat.netlify.app",
+  },
+  {
     title: "Taylor Swift API",
     description:
       "The Taylor Swift API offers album details, song info, and artist insights, enabling developers to create engaging apps and websites.",
     repoLink: "https://github.com/lakshaykamat/taylor-swift-api",
     previewLink: "https://taylor-swift-api.vercel.app/",
+  },
+  {
+    title: "Personal Bookself",
+    description:
+      "Explore and save your favorite books in your personalized wishlist, organizing and tracking your reading interests efficiently.",
+    repoLink: "https://github.com/lakshaykamat/personal-bookself/",
+    previewLink: "https://personal-bookself-sigma.vercel.app/",
+  },
+  {
+    title: "Street Notes",
+    description:
+      "Stay organized with our notes app. Simple, intuitive design for effortless note-taking and easy access to your important thoughts.",
+    repoLink: "https://github.com/lakshaykamat/skill-stree-notes-app",
+    previewLink: "https://skill-stree-notes-app.vercel.app/",
+  },
+  {
+    title: "Life Progress Meter",
+    description: "Track your life.",
+    repoLink: "https://github.com/lakshaykamat/tipX",
+    previewLink: "https://life-progress-meter.vercel.app/",
   },
   {
     title: "Tip X",
@@ -77,28 +126,6 @@ const projects: Project[] = [
       "BMI Bliss is an Android app for tracking and enhancing health. It provides accurate BMI calculations, gender-specific insights, and a user-friendly design for informed wellness.",
     repoLink: "https://github.com/lakshaykamat/bmi-bliss",
     previewLink: "https://github.com/lakshaykamat/bmi-bliss/releases",
-  },
-  {
-    title: "Street Notes",
-    description:
-      "Stay organized with our notes app. Simple, intuitive design for effortless note-taking and easy access to your important thoughts.",
-    repoLink: "https://github.com/lakshaykamat/skill-stree-notes-app",
-    previewLink: "https://skill-stree-notes-app.vercel.app/",
-  },
-  {
-    title: "E commerce",
-    description:
-      "Stay organized with our notes app. Simple, intuitive design for effortless note-taking and easy access to your important thoughts.",
-    repoLink: "https://github.com/lakshaykamat/e-commerce-client",
-    previewLink: "https://e-commerce-client-pi.vercel.app/",
-  },
-  {
-    title: "Snap Note",
-    description:
-      "Stay organized with our notes app. Simple, intuitive design for effortless note-taking and easy access to your important thoughts.",
-    repoLink: "https://github.com/lakshaykamat/snap-note",
-    previewLink:
-      "https://gist.github.com/lakshaykamat/7a941f0c5ae755c149b8aa833ace5982",
   },
 ];
 export default projects;

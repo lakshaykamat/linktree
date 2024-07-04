@@ -10,7 +10,7 @@ import Education from "./components/Education";
 const HomePage = () => {
   return (
     <div className="">
-      <h2 className="py-3 text-2xl font-bold text-center bg-rose-300 border-b-2 border-b-gray-400">
+      <h2 className="py-3 text-2xl font-bold text-center bg-indigo-300 border-b-2 border-b-gray-400">
         {authorInfo.headline}
       </h2>
       <div className="flex flex-col gap-10 px-6 py-10 lg:flex-row">
@@ -20,7 +20,7 @@ const HomePage = () => {
             alt="shiku"
             width={288}
             height={288}
-            className="p-1 rounded-full outline outline-4 outline-rose-300 w-72 h-72"
+            className="p-1 rounded-full outline outline-4 outline-indigo-300 w-72 h-72"
           />
           <div className="flex flex-col w-full gap-3">
             <div className="">
@@ -39,6 +39,54 @@ const HomePage = () => {
             <SocialSection />
             <TechStack />
             <Education />
+            <div className="mb-3">
+              <h3 className="text-xl mb-3 font-semibold">Achivements</h3>
+              <div className="flex gap-2 items-center flex-wrap">
+                <ul className="list-disc pl-3 flex flex-col gap-2">
+                  <li>
+                    Certified in JavaScript and React at HackerRank.{" "}
+                    <a
+                      className="underline text-blue-500"
+                      href="https://www.hackerrank.com/certificates/bea7c9684550"
+                    >
+                      Javascript
+                    </a>{" "}
+                    <a
+                      className="underline text-blue-500"
+                      href="https://www.hackerrank.com/certificates/bfdea6c06129"
+                    >
+                      Reactjs
+                    </a>
+                  </li>
+                  <li>
+                    Achieved a 3-star rating in Java, Python, and SQL at
+                    HackerRank and earned a 2-star rating in C
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="mb-3">
+              <h3 className="text-xl mb-3 font-semibold">Resume</h3>
+              <ul className="list-disc pl-3 flex flex-col gap-2">
+                <li>
+                  <a
+                    className="text-blue-500 underline"
+                    href="https://docs.google.com/document/d/16NCAOhfSQya0_4y_UeDTcoYgspQgPQDfUvzx_lZMqy8/edit?usp=sharing"
+                  >
+                    Resume drive Link
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-blue-500 underline"
+                    href="Resume.pdf"
+                    download={true}
+                  >
+                    Download resume
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="flex-grow">

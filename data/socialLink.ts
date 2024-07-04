@@ -32,14 +32,6 @@ const socialMedia = [
       return `https://www.github.com/${username}`;
     },
   },
-  {
-    jsx: Instagram,
-    label: "Instagram",
-    username: "lakshaykamat",
-    url: function url(username: string) {
-      return `https://www.instagram.com/${username}`;
-    },
-  },
 
   {
     jsx: X,
@@ -47,14 +39,6 @@ const socialMedia = [
     username: "lakshaykamat",
     url: function url(username: string) {
       return `https://twitter.com/${username}`;
-    },
-  },
-  {
-    jsx: Blog,
-    label: "Hasnode",
-    username: "lakshaykamat",
-    url: function url(username: string) {
-      return `https://${username}.hashnode.dev/`;
     },
   },
 ];
