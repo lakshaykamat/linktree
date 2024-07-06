@@ -60,7 +60,7 @@ const projects: Project[] = [
   {
     title: "SyncTalk - Chat application and Post Sharing Platfrom",
     description:
-      "Stay organized with our notes app. Simple, intuitive design for effortless note-taking and easy access to your important thoughts.",
+      "SyncTalk is a social platform integrating chat, post sharing, liking, commenting, and friend connections, powered by MERN stack and Next.js.",
     repoLink: "https://github.com/lakshaykamat/synctalk",
     previewLink: "https://synctalk.vercel.app/",
   },
