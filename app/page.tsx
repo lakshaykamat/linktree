@@ -10,7 +10,7 @@ import Education from "./components/Education";
 const HomePage = () => {
   return (
     <div className="">
-      <h2 className="py-3 text-2xl font-bold text-center bg-indigo-300 border-b-2 border-b-gray-400">
+      <h2 className="py-3 text-2xl font-bold text-center bg-pink-300 border-b-2 border-b-gray-400">
         {authorInfo.headline}
       </h2>
       <div className="flex flex-col gap-10 px-6 py-10 lg:flex-row">
@@ -20,7 +20,7 @@ const HomePage = () => {
             alt="shiku"
             width={288}
             height={288}
-            className="p-1 rounded-full outline outline-4 outline-indigo-300 w-72 h-72"
+            className="p-1 rounded-full outline outline-4 outline-pink-300 w-72 h-72"
           />
           <div className="flex flex-col w-full gap-3">
             <div className="">
@@ -32,7 +32,7 @@ const HomePage = () => {
               </p>
               <p className="mt-4 text-base text-gray-700 flex gap-2">
                 <Location />
-                New Delhi, India
+                MP, India
               </p>
             </div>
             <hr className="h-[2px] bg-gray-400" />
@@ -76,7 +76,7 @@ const HomePage = () => {
                     Resume drive Link
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     className="text-blue-500 underline"
                     href="Resume.pdf"
@@ -84,7 +84,7 @@ const HomePage = () => {
                   >
                     Download resume
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

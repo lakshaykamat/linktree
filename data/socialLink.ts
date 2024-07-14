@@ -3,23 +3,23 @@ const socialMedia = [
   {
     jsx: Email,
     label: "Email",
-    username: "lakshaykamat.dev@gmail.com",
+    username: "anamikasinghrajraj@gmail.com",
     url: function url(username: string) {
       return `mailto:${username}`;
     },
   },
-  {
-    jsx: Link,
-    label: "Portfolio",
-    username: "lakshaykamat.netlify.app",
-    url: function url(username: string) {
-      return `https://${username}`;
-    },
-  },
+  // {
+  //   jsx: Link,
+  //   label: "Portfolio",
+  //   username: "lakshaykamat.netlify.app",
+  //   url: function url(username: string) {
+  //     return `https://${username}`;
+  //   },
+  // },
   {
     jsx: Linkedin,
     label: "LinkedIn",
-    username: "lakshaykamat",
+    username: "anamikasinghraj",
     url: function url(username: string) {
       return `https://www.linkedin.com/in/${username}`;
     },
@@ -27,19 +27,18 @@ const socialMedia = [
   {
     jsx: Github,
     label: "Github",
-    username: "lakshaykamat",
+    username: "anamikasinghraj",
     url: function url(username: string) {
       return `https://www.github.com/${username}`;
     },
   },
-
-  {
-    jsx: X,
-    label: "Twitter",
-    username: "lakshaykamat",
-    url: function url(username: string) {
-      return `https://twitter.com/${username}`;
-    },
-  },
+  // {
+  //   jsx: X,
+  //   label: "Twitter",
+  //   username: "lakshaykamat",
+  //   url: function url(username: string) {
+  //     return `https://twitter.com/${username}`;
+  //   },
+  // },
 ];
 export default socialMedia;

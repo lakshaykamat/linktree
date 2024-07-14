@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lakshay Kamat | Linktree",
+  title: "Anamika Singh Raj | Linktree",
   description:
     "A comprehensive showcase of my projects, blogs, and professional journey, highlighting my skills, experiences, and accomplishments.",
 };

@@ -1,32 +1,26 @@
 import socialMedia from "./socialLink";
-import projects from "./projects";
+import projects, { oldProjects } from "./projects";
 
 const authorInfo = {
-  name: "Lakshay Kamat",
+  name: "Anamika Singh",
   avatar: "/lakshay.jpeg",
-  bio: "Developer",
+  bio: "Student",
   headline:
     "“Difficulties strengthen the mind as labor does the body.” – Seneca",
-  location: "New Delhi, India",
+  location: "MP, India",
   socialMedia,
-  projects,
+  projects:oldProjects,
   techStack: [
-    "Java",
-    "Javascript",
+    "HTML",
+    "CSS",
     "Python",
-    "Django",
-    "Flask",
-    "DSA",
+    "Javascript",
     "SQL",
-    "MongoDB",
-    "JWT",
-    "Next.js",
-    "Express.js",
-    "Node.js",
-    "React.js",
+    "C",
+    "SQL",
   ],
   education: [
-    "Currently pursuing BCA from Echelon Institute of Technology, Faridabad. (2022-2025)",
+    "Currently pursuing Btech CSE from Oriental Institute of Science and Technology, Bhopal. (2022-2026)",
   ],
 };
 

@@ -4,7 +4,7 @@ type Project = {
   repoLink: string;
   previewLink?: string;
 };
-const oldProjects: Project[] = [
+export const oldProjects: Project[] = [
   {
     title: "Javascript watch",
     description: "Are you a 5y old baby?? watch your time kid",
